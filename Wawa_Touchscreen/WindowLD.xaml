@@ -1,0 +1,41 @@
+﻿<Window x:Class="Wawa_Touchscreen.WindowLD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wawa_Touchscreen"
+        mc:Ignorable="d"
+        Title="Lunch &amp; Dinner" Height="450" Width="800">
+    <Grid>
+        <Label Content="Lunch &amp; Dinner" HorizontalAlignment="Left" Margin="234,37,0,0" VerticalAlignment="Top" Width="300" Height="50" HorizontalContentAlignment="Center" TextBlock.FontSize="25" TextBlock.Foreground="Black" Background="SpringGreen"/>
+        <Button Content="BACK" HorizontalAlignment="Left" Margin="30,365,0,0" VerticalAlignment="Top" Width="75" Height="30" Background="Salmon" Click="Button_Click"/>
+        <Button Content="NEXT" HorizontalAlignment="Left" Margin="685,365,0,0" VerticalAlignment="Top" Width="75" Height="30" Background="Salmon" Click="Button_Click_1"/>
+
+        <Button Name="pic1" HorizontalAlignment="Left" Margin="130,120,0,0" VerticalAlignment="Top" Width="119" Height="90" Background="White" BorderBrush="White" Foreground="White">
+            <Image Source="variety_lunch_dinner_cold_hoagies_egg_salad.png" Stretch="UniformToFill"/>
+        </Button>
+        <Button Name="pic2" HorizontalAlignment="Left" Margin="330,120,0,0" VerticalAlignment="Top" Width="119" Height="90" Background="White" BorderBrush="White" Foreground="White">
+            <Image Source="variety_lunch_dinner_cold_hoagies_pepperoni.png" Stretch="UniformToFill"/>
+        </Button>
+        <Button Name="pic3" HorizontalAlignment="Left" Margin="530,120,0,0" VerticalAlignment="Top" Width="119" Height="90" Background="White" BorderBrush="White" Foreground="White">
+            <Image Source="variety_lunch_dinner_cold_hoagies_roast_beef.png" Stretch="UniformToFill"/>
+        </Button>
+        <Button Name="pic4" HorizontalAlignment="Left" Margin="130,261,0,0" VerticalAlignment="Top" Width="119" Height="90" Background="White" BorderBrush="White" Foreground="White">
+            <Image Source="variety_lunch_dinner_chicken_sandwiches_chicken.png" Stretch="UniformToFill"/>
+        </Button>
+        <Button Name="pic5" HorizontalAlignment="Left" Margin="330,261,0,0" VerticalAlignment="Top" Width="119" Height="90" Background="#FFFFFCFC" BorderBrush="White" Foreground="White">
+            <Image Source="variety_lunch_dinner_cold_hoagies_roastedveg_provolone.png" Stretch="UniformToFill"/>
+        </Button>
+        <Button Name="pic6" HorizontalAlignment="Left" Margin="530,261,0,0" VerticalAlignment="Top" Width="119" Height="90" Background="#FFFFFCFC" BorderBrush="White" Foreground="White">
+            <Image Source="variety_lunch_dinner_hot_hoagies_beef.png" Stretch="UniformToFill"/>
+        </Button>
+
+        <Label Content="Chicken Salad Sandwich" HorizontalAlignment="Left" Margin="123,209,0,0" VerticalAlignment="Top" Width="145" Height="29"/>
+        <Label Content="Pepperoni Sandwich" HorizontalAlignment="Left" Margin="330,209,0,0" VerticalAlignment="Top" Width="145" Height="25"/>
+        <Label Content="Roast Beef Sandwich" HorizontalAlignment="Left" Margin="530,208,0,0" VerticalAlignment="Top" Width="145" Height="26"/>
+        <Label Content="Chicken Strips Sandwich" HorizontalAlignment="Left" Margin="123,347,0,0" VerticalAlignment="Top" Width="145" Height="29"/>
+        <Label Content="Roasted Veggie Sandwich" HorizontalAlignment="Left" Margin="327,347,0,0" VerticalAlignment="Top" Width="148" Height="29"/>
+        <Label Content="Beefsteak Sandwich" HorizontalAlignment="Left" Margin="530,347,0,0" VerticalAlignment="Top" Width="145" Height="29"/>
+
+    </Grid>
+</Window>
